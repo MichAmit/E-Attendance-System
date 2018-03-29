@@ -1,0 +1,19 @@
+#mainBox{
+	border: 1px solid #0275d8;
+	background: #f8f9faba;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+a{
+	color: black;
+}
+
+a.fp-link:hover{
+	text-decoration: none;
+	color: #d60000;
+}
+
+hr{
+    background-color:#0275d8;
+}

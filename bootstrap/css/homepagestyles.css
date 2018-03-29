@@ -1,0 +1,62 @@
+.carousel-inner > .carousel-item > img {
+	width:auto;
+	height:600px;
+}
+
+a.homepagelink-link{
+	color:white;
+	display: block;
+	height: 100%;
+}
+
+a.homepagelink-link:hover{
+	color:white;
+	text-decoration: none;	
+}
+
+@media only screen and (max-width:520px)
+{
+	.carousel-inner > .carousel-item > img {
+	width:auto;
+	height:340px;
+}
+}
+
+.card{
+	cursor:pointer;
+	background: #f8f9faba !important;
+}
+.margin {
+	margin:10px auto 10px;	
+}
+
+/*
+@media only screen and (max-width:520px)
+{
+	.homepagelink{
+		font-size:10pt;
+	}
+}
+*/
+
+.homepagelink{
+
+	background: #d60000/*#9F1C32*/;
+	color:white;
+	padding: 20px;
+	border-radius:5px;
+}
+.homepagelink:hover{
+	    background: #f75555;/*#2d2a88;*/
+    color: #fff;/*
+		background: #f8f9faba;
+	color:#333;*/
+}
+.activelink {
+	background-color: #e0e0e0 !important;
+}
+
+#start{
+	background: #212121;/*#9c9c9c;*/
+	/*#212121*/
+}

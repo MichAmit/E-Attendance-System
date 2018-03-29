@@ -1,0 +1,75 @@
+/*color:#5cb85c !important; Green*/
+/*color: #f0ad4e !important; Yellow*/
+/*color: #0275d8 !important; Blue*/
+/*color: #d9534f !important; Red*/
+
+.Editor-editor{
+	background:white;
+}
+
+.fa{
+	color:#9F1C31;
+}
+/*
+.hr-dark{
+	background: #333;
+}
+*/
+#box,.box{
+	border: 1px solid #9F1C31;
+	border-radius: 10px;
+	padding: 20px;
+	margin:10px;
+}
+
+.box-green{
+	border: 1px solid #5cb85c;
+	border-radius: 10px;
+	padding: 20px;
+	margin:10px;
+}
+
+.box-blue{
+	border: 1px solid #0275d8;
+	border-radius: 10px;
+	padding: 20px;
+	margin:10px;
+}
+
+.box-red{
+	border: 1px solid #d9534f;
+	border-radius: 10px;
+	padding: 20px;
+	margin:10px;
+}
+
+ a.navtabs{
+	 color: #333 !important;
+ }
+
+a.navtabs.active{
+	/*color: #0275d8 !important;*/
+	color: #cb1433 !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ab4756 !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    /*color: #fff;
+    text-decoration: none;*/
+    background-color: #dae6ff !important;
+}
+
+
+a.qlink:hover{
+	text-decoration: none;
+	color:#5cb85c;
+}
+
+//Card photo gallery CSS - change after asking
+.card {
+	border:1px solid #eeeeee;
+	cursor : pointer;
+}
