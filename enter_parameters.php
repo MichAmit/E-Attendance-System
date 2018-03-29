@@ -14,7 +14,7 @@ $year = "TE";
 
 include 'connect.php';
 $connect = connect_to_database();
-$que = "SELECT * FROM subjects WHERE year = '$year'";
+$que = "SELECT * FROM Subjects WHERE year = '$year'";
 $result = mysqli_query($connect,$que);
 $row=mysqli_fetch_assoc($result);
 if(! mysqli_query($connect,$que)){
